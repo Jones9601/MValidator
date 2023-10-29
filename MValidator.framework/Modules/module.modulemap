@@ -1,0 +1,11 @@
+framework module MValidator {
+  umbrella header "MValidator.h"
+  export *
+
+  module * { export * }
+}
+
+module MValidator.Swift {
+  header "MValidator-Swift.h"
+  requires objc
+}
